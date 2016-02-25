@@ -32,6 +32,13 @@ proguard/
 # Android Studio captures folder
 captures/
 
+# Eclipse project files
+.classpath
+.project
+
+# Intellij project files
+*.iws
+
 # =========================
 # Operating System Files
 # =========================
@@ -46,9 +53,11 @@ captures/
 # Thumbnails
 ._*
 
-# Files that might appear in the root of a volume
+-# Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
+
+# Files that might appear on external disk
 .Spotlight-V100
 .TemporaryItems
 .Trashes
@@ -82,3 +91,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+# IDEA
+*.iml
+.idea/
